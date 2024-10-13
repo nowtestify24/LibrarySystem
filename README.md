@@ -65,15 +65,43 @@ S - Search for a book
 Q - Quit
 
 Enter your choice: I
-Enter book title: The Great Gatsby
-Enter book author: F. Scott Fitzgerald
+Enter book title: Harry Potter and Chamber of Secrets
+Enter book author: JK Rowling
 Enter book genre (F for Fiction, N for Non-Fiction): F
-Enter number of copies: 5
+Enter number of copies: 3
 
 Book inserted successfully!
 
+Menu:
+D - Display inventory
+I - Insert a book
+R - Delete a book
+S - Search for a book
+Q - Quit
+
 Enter your choice: D
+
+Display By:
+T - Title
+A - Author
+Enter your choice: A
 Current inventory:
-The Great Gatsby by F. Scott Fitzgerald - 5 copies available
+
+
+Page 1
+Star Wars by George Lucas - 1 copies available
+Harry Potter and Sorcerer's Stone by JK Rowling - 1 copies available
+Harry Potter and Chamber of Secrets by JK Rowling - 3 copies available
 
 Enter 'n' for next page, 'p' for previous page, or 'q' to quit: q
+
+Menu:
+D - Display inventory
+I - Insert a book
+R - Delete a book
+S - Search for a book
+Q - Quit
+
+Enter your choice: q
+
+Exiting the program. Goodbye!
