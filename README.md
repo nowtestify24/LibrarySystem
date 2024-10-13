@@ -13,9 +13,9 @@ This project is a simple library management system implemented in C++. It allows
 ## Classes and Methods
 
 ### Book Class
-- **Book(std::string t, std::string a, char g, int n)**: Constructor to initialize a book with title, author, genre, and number of copies.
-- **std::string getTitle() const**: Returns the title of the book.
-- **std::string getAuthor() const**: Returns the author of the book.
+- **Book(string t, string a, char g, int n)**: Constructor to initialize a book with title, author, genre, and number of copies.
+- **string getTitle() const**: Returns the title of the book.
+- **string getAuthor() const**: Returns the author of the book.
 - **Genre getGenre() const**: Returns the genre of the book.
 - **int getNumCopies() const**: Returns the number of copies available.
 
