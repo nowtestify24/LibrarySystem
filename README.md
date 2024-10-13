@@ -22,12 +22,12 @@ This project is a simple library management system implemented in C++. It allows
 ### Library Class
 - **Library()**: Constructor to initialize the library.
 - **void insertBook(Book& book)**: Adds a book to the library.
-- **bool removeBook(std::string name)**: Removes a book by title.
+- **bool removeBook(string name)**: Removes a book by title.
 - **void displayInventory(int page = 1) const**: Displays the inventory with pagination.
 - **void sortInventory(char c)**: Sorts the inventory by title or author.
-- **void saveInventory(const std::string& filename) const**: Saves the inventory to a file.
-- **void loadInventory(const std::string& filename)**: Loads the inventory from a file.
-- **void searchBook(const std::string& query) const**: Searches for books by title or author.
+- **void saveInventory(string& filename) const**: Saves the inventory to a file.
+- **void loadInventory(string& filename)**: Loads the inventory from a file.
+- **void searchBook(string& query) const**: Searches for books by title or author.
 
 ## How to Run
 1. **Clone the repository**:
@@ -37,7 +37,7 @@ This project is a simple library management system implemented in C++. It allows
     ```
 
 2. **Compile the code**:
-    ```
+    ```sh
     g++ -std=c++11 -c Library.cpp
     g++ -std=c++11 -c LibraryDriver.cpp
     g++ -std=c++11 -o libraryProgram.exe Library.o LibraryDriver.o
