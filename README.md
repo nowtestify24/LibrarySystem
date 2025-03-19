@@ -1,7 +1,7 @@
 # Library Management System
 
 ## Overview
-This project is a simple library management system implemented in C++. It allows users to manage a collection of books, including adding, removing, displaying, and searching for books. The system also supports pagination for displaying the inventory and saves the inventory to a file for persistence.
+This project is a simple and effective library management system implemented in C++. It allows users to manage a collection of books, including adding, removing, displaying, and searching for books. The system also supports pagination for displaying the inventory and saves the inventory to a file for persistence.
 
 ## Features
 - **Add Books**: Insert new books into the library.
